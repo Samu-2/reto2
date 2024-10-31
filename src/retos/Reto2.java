@@ -20,6 +20,8 @@ public class Reto2 {
 		switch(opcion) {
 		case 1:
 			Funciones1.menuLongitud();
+		case 2:
+			Funciones1.menuPeso();
 		}
 	
 		
