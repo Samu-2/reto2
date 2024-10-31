@@ -28,7 +28,7 @@ public class FuncionesValidar {
 		}
 	}
 
-	public static int dimeEntero(String texto, Scanner sc) {
+	public static int dimeEntero(String texto, Scanner sc) { //para validar
 		do {
 			try {
 			

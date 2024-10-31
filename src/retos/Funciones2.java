@@ -26,6 +26,7 @@ public class Funciones2 {
 		case 0:
 	
 			default:
+				
 		}
 			
 		
