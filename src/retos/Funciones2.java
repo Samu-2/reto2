@@ -13,7 +13,7 @@ public class Funciones2 {
 			System.out.println("1.De grados a fahrenheit");
 			System.out.println("2.De fahrenheit a grados");
 			System.out.println("0.Salir");
-			
+			opcion = FuncionesValidar.dimeEntero("Elige una opción", sc);
 		switch(opcion) {
 		case 1: 
 		double grados=FuncionesValidar.dimeDouble("Introduce grados", sc);
@@ -52,7 +52,7 @@ public class Funciones2 {
 			System.out.println("1.De litros a galones");
 			System.out.println("2.De galones a litros");
 			System.out.println("0.Salir");
-			
+			opcion = FuncionesValidar.dimeEntero("Elige una opción", sc);
 			switch(opcion) {
 			case 1: 
 			double litros=FuncionesValidar.dimeDouble("Introduce litros", sc);
