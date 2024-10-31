@@ -22,6 +22,11 @@ public class Reto2 {
 			Funciones1.menuLongitud();
 		case 2:
 			Funciones1.menuPeso();
+		case 3:
+			Funciones2.menuTemperatura();
+			
+		case 4:
+			Funciones2.menuVolumen();
 		}
 	
 		

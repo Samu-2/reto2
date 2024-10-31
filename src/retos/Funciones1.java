@@ -17,7 +17,6 @@ public class Funciones1 {
 			switch (opcion) {
 			case 1:
 				double millas = FuncionesValidar.dimeDouble("Introduce Millas", sc);
-
 				System.out.println(Funciones1.dimeKilometros(millas));
 
 			case 2:
@@ -54,10 +53,10 @@ public class Funciones1 {
 				double libras = FuncionesValidar.dimeDouble("Introduce libras", sc);
 				System.out.println(Funciones1.dimeKilogramos(libras));
 			case 2:
-				double kilogramos=FuncionesValidar.dimeDouble("Introduce kilogramos", sc);
+				double kilogramos = FuncionesValidar.dimeDouble("Introduce kilogramos", sc);
 				System.out.println(Funciones1.dimeLibras(kilogramos));
 			case 0:
-				default:
+			default:
 			}
 
 		} while (opcion != 0);
