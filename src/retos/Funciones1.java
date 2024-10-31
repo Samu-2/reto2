@@ -10,10 +10,10 @@ public static void longitud() {
 	}while(true);
 }
 public static double dimeMillas(double kilometros) {
-	 return kilometros*0.62137;
+	 return kilometros/1.609;
 }
 public static double dimeKilometros(double millas) {
-	return millas*1.60934;
+	return millas*1.609;
 }
 public static void peso() {
 	do {
@@ -25,7 +25,7 @@ public static void peso() {
 	
 }
 public static double dimeKilogramos(double libras) {
-	return libras*0.453592;
+	return libras/2.20462;
 }
 public static double dimeLibras(double kilogramos) {
 	return kilogramos*2.20462;
